@@ -9,6 +9,7 @@ In terminal inside docker container,
 Download both metadata and reviews of electronics file as below
 
 curl -L -O -C - http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Electronics.json.gz
+
 curl -L -O -C - http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Electronics.json.gz
 
 unzip both the files as below,
