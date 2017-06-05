@@ -13,12 +13,15 @@ curl -L -O -C - http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/
 curl -L -O -C - http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Electronics.json.gz
 
 unzip both the files as below,
+
 gunzip meta_Electronics.json.gz
+
 gunzip reviews_Electronics.json.gz
 
 Copy the 2 files in to HDFS by creating the respective directories
 
 hdfs dfs -copyFromLocal meta_Electronics.json /user/root/metadata
+
 hdfs dfs -copyFromLocal reviews_Electronics.json /user/root/full_reviews
 
 For the next step in Sentiment analysis Files in the Files directory are required to perform the scoring of the words
