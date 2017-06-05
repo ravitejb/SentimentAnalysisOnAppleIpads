@@ -1,6 +1,7 @@
 # SentimentAnalysisOnAppleIpads
 
 Sentiment analysis on Apple iPads(different versions including ipad2, iPad AIR, iPad 3rd Gen, iPad MINI, iPad 4)
+
 ** Sentiment Analysis Code can be modified to any other use case based on the requirement with small tweaks**
 ** A comparision of analysis is done between Dunkin Donuts, McDonalds, Starbucks from Twitter Data**
 Data Extraction:
